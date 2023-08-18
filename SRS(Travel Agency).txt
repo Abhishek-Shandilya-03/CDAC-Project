@@ -1,0 +1,87 @@
+Document : System Requirement Specification Document
+
+Title : System Requirement Specification for Online travel agency.
+
+Team : Direct customer, Architect, Business Analyst, System Analyst.
+
+Objective : The Travel Booking Website is a web-based platform aimed at providing travelers with a seamless and efficient way to plan, search, and book various travel-related services. The website will allow users to search and book flights, accommodations, and travel packages. 
+
+Scope : The scope of the project includes enabling users to easily search, compare, and book travel packages. Users will be able to create accounts, log in securely, and manage their bookings. The platform will integrate with secure payment gateways, provide user-generated reviews and ratings, and offer an admin panel for content and booking management. The website will have a responsive design, ensure data security, and offer a seamless user experience for travel planning and booking.
+
+Functional Requirements : 
+
+1. User Registration and Authentication:
+
+Users should be able to create accounts using their email addresses or social media profiles.
+The system must validate and store user information securely.
+Users should have the option to reset their passwords if forgotten.
+Registration and login forms should have proper validation to ensure accurate and secure data entry.
+
+2. Search and Booking:
+
+Users must be able to search for travel packages using various criteria such as destination, dates, and budget.
+The search results should display detailed information for each option, including prices, availability, and relevant details.
+Users should be able to select options and proceed to booking.
+Before finalizing a booking, users should have the opportunity to review their selections and make any necessary changes.
+
+3. User Profiles:
+
+Users must have personalized profiles to manage their information and bookings.
+The system should display the user's booking history, showing past and upcoming trips.
+Users should be able to update their profile information, such as name, email, and password.
+
+4. Payment and Checkout:
+
+The system must integrate with secure payment gateways for processing bookings.
+Users should receive a clear summary of their booking details, including costs, before proceeding to payment.
+Confirmation emails with booking details and payment receipts should be sent to users after successful transactions.
+
+5. Reviews and Ratings:
+
+Users should have the ability to leave reviews and ratings for flights, accommodations, and travel packages they've experienced.
+Reviews should include a title, comments, and a numeric rating on a scale of 1 to 5.
+The website should display user-generated reviews and ratings for others to view when browsing options.
+
+6. Admin Panel:
+
+The admin panel should require secure authentication for access.
+Admins should be able to manage user accounts, including deactivation or deletion if necessary.
+Admins must have the capability to update prices, availability, and content for flights, accommodations, and travel packages.
+
+7. Responsive Design:
+
+The website's user interface should be designed to work seamlessly across various devices, such as desktops, tablets, and smartphones.
+Responsive design ensures an optimal user experience regardless of the device used to access the website.
+
+Non-Functional Requirements :
+
+1. Security:
+
+User passwords must be securely hashed and stored in the database.
+Payment processing must adhere to industry-standard security protocols to ensure the protection of user financial data.
+
+2. Performance:
+
+The system must be capable of handling a significant number of concurrent users without significant performance degradation.
+Search results and other interactions should provide responses within a reasonable time frame, preferably within a few seconds.
+
+3. Usability:
+
+The user interface should be intuitive and easy to navigate, providing clear calls to action and straightforward steps for booking.
+The booking process should be streamlined, reducing user effort and minimizing the risk of errors.
+
+4. Availability:
+
+The website should maintain high availability to ensure users can access and use the platform without frequent downtimes or disruptions.
+
+5. Compatibility:
+
+The website should be compatible with major web browsers, including Google Chrome, Mozilla Firefox, Apple Safari, and Microsoft Edge.
+
+6. Modularity:
+
+System will designed and developed using reusable, independent or dependent business senarios in the form of modules. These modules will be loosely coupled and highly cohesive. System will contain CRM , Inventory , order processing, payment processing, and Roles managment modules.
+
+7. Scalability:
+
+System will be able to provide consistent user exeprience to stake holder as well as vistors irrespective of load.
