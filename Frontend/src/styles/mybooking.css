@@ -1,0 +1,38 @@
+.cent{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cent button {
+    border: 1px solid black;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22) !important;
+    
+}
+
+.table-custom {
+    width: 100%;
+    border-collapse: collapse; /* Remove default cell spacing */
+    border: 1px solid #ccc; /* Add a border to the table */
+    margin-top: 20px;
+  }
+  
+  /* Style table headers */
+  .table-custom th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc; /* Add border to header cells */
+  }
+  
+  /* Style table rows */
+  .table-custom td {
+    padding: 10px;
+    border: 1px solid #ccc; /* Add border to data cells */
+  }
+  
+  /* Add some spacing between rows */
+  .table-custom tbody tr:not(:last-child) {
+    margin-bottom: 5px;
+  }
