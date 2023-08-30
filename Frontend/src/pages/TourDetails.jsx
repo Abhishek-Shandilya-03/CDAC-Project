@@ -64,7 +64,7 @@ const TourDetails = () => {
               <strong>Price:</strong> INR.{tour.price} /per person<br/>
              <strong>Description:</strong> {tour.description}<br/>
              <strong>Duration:</strong> {tour.duration}<br/>
-             <strong>Accomodation:</strong> {tour.accommodation}<br/>
+             <strong>Accomodation:</strong> {tour.accomodation}<br/>
              </p>
              
           </div>
