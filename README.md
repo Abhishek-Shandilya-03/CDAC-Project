@@ -1,2 +1,2 @@
 # CDAC-Project
-#http://snap-travel.s3-website-us-east-1.amazonaws.com
+#http://snaptravelb.s3-website-us-east-1.amazonaws.com/home
